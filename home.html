@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="hstyle.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sectionHome" class="home">
+        <div class="content ml-5">
+            <h1 class="heading mb-4">AI-Driven Disease Prediction</h1>
+            <div class="apara mb-4">
+                <p class="para">Concerned about your health? Look no further! Our innovative platform<br/>leverages cutting-edge AI to provide you with personalized risk assessment<br/> for a wide range of diseases. Simply share key symptoms through our system.<br/>Our powerful AI engine then analyzes this data to assess your risk of developing<br/>various health conditions.This comprehensive evaluation empowers you with valuable<br/> insights, allowing you to make informed decisions for a healthier future. Take charge of<br/>your health today!</p>
+            </div>
+            <button id="button1" onclick="display('sectionDetails')">
+                <span class="text">Get Started</a></span>
+            </button>
+        </div>
+    </div>
+    <div id="sectionDetails" class="back">
+        <h1 class="dhead">Get Prediction of your health here</h1>
+    <div class="form-container">
+        <form class="form">
+          <!-- <div class="form-group">
+            <label for="email" style="color: rgba(255, 255, 255, 0.781); font-size: 20px;">Name</label>
+            <input required="" name="email" id="email" type="text">
+          </div> -->
+          <div class="form-group">
+            <label for="textarea" style="color: rgba(255, 255, 255, 0.781); font-size: 20px;">Symptoms</label>
+            <textarea required="" cols="50" rows="10" id="textarea" name="textarea" placeholder="Enter your Symptoms here seperated by comma"></textarea>
+          </div>
+          <button id="button2">Predict</button>
+          <!-- <button type="submit" class="form-submit-btn">Submit</button> -->
+        </form>
+    </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
