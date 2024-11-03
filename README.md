@@ -1,5 +1,3 @@
-# Xplor_Hackathon2k24_KLH_Project
-
 ## Problem Statement
 Limited access to medical professionals hinders early disease detection due to cost and time constraints. This necessitates a user-friendly tool for symptom-based health insights.
 ![photo_2024-03-19_19-31-54](https://github.com/CHIHNITA-REDDY-B/Xplor_Hackathon2k24_KLH_Project/assets/110008913/979b892d-e3b3-44c2-9108-a26f723638f2)
